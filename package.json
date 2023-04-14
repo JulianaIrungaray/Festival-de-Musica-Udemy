@@ -1,0 +1,33 @@
+{
+  "name": "festival",
+  "version": "1.0.0",
+  "description": "Proyecto con Gulp SASS y html",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "tarea": "gulp tarea",
+    "css": "gulp css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulianaIrungaray/Festival-de-Musica-Udemy.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Juliana Irungaray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulianaIrungaray/Festival-de-Musica-Udemy/issues"
+  },
+  "homepage": "https://github.com/JulianaIrungaray/Festival-de-Musica-Udemy#readme",
+  "dependencies": {
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.62.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1"
+  }
+}
