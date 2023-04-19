@@ -14,6 +14,15 @@ html {
 body {
     font-family: v.$fuente_principal;
     font-size: 1.6rem;
+    line-height: 1.5;
+
+    &.fijar-body {
+        overflow: hidden;
+    }
+
+    &.body-scroll{
+        padding-top: 8.6rem;
+    }
 }
 
 p {
@@ -45,4 +54,11 @@ h2 {
 
 h3 {
     font-size: 3rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
 }
